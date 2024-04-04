@@ -1,0 +1,138 @@
+ body{
+ 	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+.my_menu{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-color: dodgerblue;
+}
+
+.menu li{
+	list-style: none;
+	width: 160px;
+	height: 60px;
+	background-color: blue;
+	margin-left: 5px;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+.menu li:hover{
+	background-color: red;
+}
+
+.menu li a:hover{
+	color: aqua;
+}
+
+
+.menu li a{
+	color: white;
+	display: block;
+	text-decoration: none;
+
+
+
+}
+
+.logo{
+
+	width: 55%;
+}
+.logo_li:hover{
+	background-color: dodgerblue; ! important;
+}
+
+
+.logo_li a{
+	font-size: 30px;
+	background-color: orangered;
+}
+
+
+.logo_li a:hover{
+	color: white ! important;
+}
+
+.menu ul li{
+	margin: opx;
+
+}
+.menu ul{
+	display: none;
+}
+.menu li:hover ul{
+	display: block;
+}
+
+/*banner*/
+#banner{
+width: 100%;
+
+}
+#banner img{
+	margin-top:50px;
+	width: 100%;
+}
+/*why choose us*/
+#why_choose{
+	width: 100%;
+	text-align: center;
+}
+
+#why_choose h1{
+	margin:  auto;
+	width: 300px;
+	font-size: 30px;
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+.div_section1{
+	width: 20px;
+	height: 300px;
+	margin: 10px;
+	border: 1px solid gray;
+}
+ .icon{
+	width: 120px;
+	height: 120px;
+	border: 1px solid gray;
+	margin: 10px;
+	line-height: 120px;
+	font-size: 50px;
+	background-color: rgb(76, 0, 139);
+	color: white;
+	border-radius: 100px;
+	transition-duration: 3.5s;
+}
+
+.icon:hover{
+	font-size: 40px;
+	color: red;
+	
+}
+
+.text-left{
+	text-align: left;
+	
+}
+
+.custom-line{
+	border: none; /* remove default line */
+	border-top: 2px solid #333; /*
+	customize top border */
+	border-top-color: blue; /* specify
+	color */
+	width: 50%; /* adjust width */
+	margin: 20px; auto; /* center
+	horizontally */
+}
